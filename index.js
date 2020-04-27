@@ -13,6 +13,9 @@ const nowServing = (line) => {
 }
 
 const currentLine = (line) => {
+   if (!line.length) {
+    return "There is nobody waiting to be served!"
+  }
 for(let i = 0; i < line.length; i++) {
   return `The line is currently: ${i+1}.${line[i]} `
 }
