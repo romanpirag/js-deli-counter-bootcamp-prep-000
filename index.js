@@ -2,7 +2,7 @@ const katzDeliLine = []
 
 const takeANumber = (line, name) => {
   katzDeliLine.push(name)
-  return `Welcome, ${name}. You are number ${line.length + 1 } in line.`
+  return `Welcome, ${name}. You are number ${line.length} in line.`
 }
 
 const nowServing = (line) => {
