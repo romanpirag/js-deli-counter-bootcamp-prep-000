@@ -1,4 +1,4 @@
-const katzDeliLine = ["Jim","Bob","Sally"]
+
 
 const takeANumber = (line, name) => {
   katzDeliLine.push(name)
