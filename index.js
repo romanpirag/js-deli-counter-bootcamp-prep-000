@@ -13,6 +13,8 @@ const nowServing = (line) => {
 }
 
 const currentLine = (line) => {
+  const new
+  
   if (!line.length) {
     return "The line is currently empty."
   }
