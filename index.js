@@ -6,7 +6,7 @@ const takeANumber = (line, name) => {
 }
 
 const nowServing = (line) => {
-  if (!line) {
+  if (!line.length) {
     return "There is nobody waiting to be served!"
   }
   return `${katzDeliLine.shift()}`
