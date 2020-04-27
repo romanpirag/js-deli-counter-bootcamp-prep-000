@@ -1,4 +1,4 @@
-
+const katzDeliLine = []
 
 const takeANumber = (line, name) => {
   katzDeliLine.push(name)
