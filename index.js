@@ -23,7 +23,6 @@ for(let i = 0; i < line.length; i++) {
   newLine.push(`${i+1}. ${line[i]}`
 }
 
-newLine.join('')
 
 return `The line is currently: ${newLine}`
 
