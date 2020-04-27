@@ -9,7 +9,7 @@ const nowServing = (line) => {
   if (!line) {
     return "There is nobody waiting to be served!"
   }
-  return ${katzDeliLine.shift()} 
+  return `${katzDeliLine.shift()}`
 }
 
 const currentLine = (line) => {
